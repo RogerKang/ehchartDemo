@@ -18,9 +18,16 @@ app.get('/linesBus', function (req, res, next) {
     });
 });
 
+app.get('/pollution', function (req, res, next){
+
+    var data = require('./data');
+    res.json(data);
+
+});
+
 app.use('/', function(req,res,next){
 
-    res.render('index');
+    res.render('index2');
 });
 
 
