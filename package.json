@@ -1,0 +1,29 @@
+{
+  "name": "echart_demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RogerKang/ehchartDemo.git"
+  },
+  "keywords": [
+    "echarts"
+  ],
+  "author": "rogerkang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RogerKang/ehchartDemo/issues"
+  },
+  "homepage": "https://github.com/RogerKang/ehchartDemo#readme",
+  "dependencies": {
+    "echarts": "^3.5.3",
+    "ejs": "^2.5.6",
+    "express": "^4.15.2",
+    "jquery": "^3.2.1",
+    "urllib": "^2.22.0"
+  }
+}
