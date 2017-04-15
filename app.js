@@ -53,7 +53,7 @@ app.use('/', function(req,res,next){
 });
 
 
-app.listen(3000, function(){
+app.listen(80, function(){
 
     console.log('Listen to 3000.');
 });
